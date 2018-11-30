@@ -35,10 +35,10 @@ header li{
 	padding: 0 20px 0 20px;
 }
 
-header #branding {
+header #pealkiri {
 	float:left;
 }
-header #branding h1{
+header #pealkiri h1{
 	margin:0;
 }
 header nav{
@@ -82,4 +82,13 @@ header a:hover{
 #mapid .box img{
 	width: 200px;
 	height: 120px;
+}
+#memes .box{
+	float:left;
+	width:30%;
+	padding:10px;
+}
+#memes .box img{
+	width: 300px;
+	height: 300px;
 }
