@@ -55,10 +55,18 @@ header a:hover{
 }
 #info{
 	min-height:400px;
-	background:url("https://steamcdn-a.akamaihd.net/steam/apps/730/header.jpg") no-repeat 0;
+	background:url("https://steamcdn-a.akamaihd.net/steam/apps/730/header.jpg");
+	background-repeat: no-repeat;
+	background-size: 300px 100px;
 	background-size: 100%;
 	text-align:center:
 	color:#ffffff;
 }
-#showcase h1{
+#info h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#info p{
+	font-size:15px;
 }
