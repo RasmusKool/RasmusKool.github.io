@@ -79,6 +79,9 @@ header a:hover{
 	width:30%;
 	padding:10px;
 }
+#mapid .box h3{
+	color:#e8491d;
+}
 #mapid .box img{
 	width: 200px;
 	height: 120px;
@@ -91,6 +94,9 @@ header a:hover{
 #memes .box img{
 	width: 300px;
 	height: 300px;
+}
+#üldine h3{
+	color:#e8491d;
 }
 #üldine {
 	text-align: center;
