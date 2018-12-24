@@ -6,7 +6,22 @@
     <title>Videod</title>
   </head>
   <body>
-  <script src="parallax.js"></script>
+  <time id="date"></time>
+
+<script>
+  /* 
+  Create a JavaScript Date object for the current date and time,
+  then extract the desired parts, then join them again in the desired format.
+  */
+  var currentDate = new Date(),
+      day = currentDate.getDate(),
+      month = currentDate.getMonth() + 1,
+      year = currentDate.getFullYear(),
+      date = day + "/" + month + "/" + year;
+      
+  // Output the date to the above HTML element
+  document.getElementById("date").innerHTML = date;
+</script>
   <iframe width="1280" height="720" src="https://www.youtube.com/embed/a1lK2CKKGzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="1280" height="720" src="https://www.youtube.com/embed/5LxzJ4rKQWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <iframe width="1280" height="720" src="https://www.youtube.com/embed/ACa2n14RdVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
