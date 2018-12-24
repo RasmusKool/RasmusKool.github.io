@@ -3,6 +3,8 @@ body {
 }
 
 iframe {
-  display: block;
-  margin: 0 auto;
+   position: absolute;
+   margin: auto;
+   top: 50%;
+   left: 50%;
 }
