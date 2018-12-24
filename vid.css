@@ -9,7 +9,7 @@ iframe {
     margin: 0 auto;
 }
 
-date.style {
+#date {
   color: cornflowerblue;
   writing-mode: vertical-rl;
 }
