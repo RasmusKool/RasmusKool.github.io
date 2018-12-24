@@ -1,6 +1,7 @@
 body {
   background-image: url("https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxH5rd9eDAjcFyv45SRYAFMIcKL_PArgVSL403ulRUWEndVKv6hJ-cVlsjJgYD4r72elVk1aaYImVB7t3mktbSlqetY-rVlz8Dv5wh2r-VoML_mFM65Dv4XA/360fx360f");
-  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 iframe {
