@@ -8,3 +8,8 @@ iframe {
     display: block;
     margin: 0 auto;
 }
+
+date.style {
+  color: cornflowerblue;
+  writing-mode: vertical-rl;
+}
