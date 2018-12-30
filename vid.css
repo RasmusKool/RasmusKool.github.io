@@ -5,8 +5,8 @@ body {
 }
 
 iframe {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #date {
@@ -15,41 +15,41 @@ iframe {
 }
 
 header{
-	background:grey;
-	color:#ffffff;
-	padding-top:30px;
-	min-height:70px;
+  background: darkolivegreen;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
 }
 
 header a{
-	color:#ffffff;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-size:16px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 header ul{
-	margin:0;
-	padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 header li{
-	float:left;
-	display:inline;
-	padding: 0 20px 0 20px;
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
 }
 
 header nav{
-	float:right;
-	margin-top: 10px;
+  float: right;
+  margin-top: 10px;
 }
 
 header .highlight, header .current a{
-	color:#e8491d;
-	font-weight:bold;
+  color: #e8491d;
+  font-weight: bold;
 }
 
 header a:hover{
-	color:#cccccc;
-	font-weight: bold;
+  color: #cccccc;
+  font-weight: bold;
 }
